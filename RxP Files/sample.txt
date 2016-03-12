@@ -1,0 +1,85 @@
+Svyatolsav Kucheryavykh
+##Starting client and connecting
+C:\Users\Slava\Desktop\Network\P2>python FxAClient.py 8080 127.0.0.1 5000
+type the command: connect
+Connected
+type the command: connect
+Already connected
+type the command: akjfagdf
+Invalid command
+type the command:
+
+##Starting Server
+C:\Users\Slava\Desktop\Network\P2>python FxAServer.py 8081 127.0.0.1 5000
+type the command: connected
+waiting for command
+window 5
+Window size set to  5
+type the command: window ahdgf
+Wrong input value
+type the command:
+
+##Terminate Server
+terminate
+shutting down
+closing
+closing
+
+C:\Users\Slava\Desktop\Network\P2>
+
+##Disconnect Client
+type the command: disconnect
+Done Sending
+closing
+C:\Users\Slava\Desktop\Network\P2>
+
+
+
+##get and post requests
+type the command: get HW3.txt
+Done Sending
+got msg
+got msg
+got msg
+got msg
+got msg
+got msg
+got msg
+got the file: HW3.txt
+type the command: post HW3.txt
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+file sent
+type the command:
+
+##get and post from server's side
+waiting for command
+got msg
+sending  HW3.txt
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+Done Sending
+file sent
+waiting for command
+got msg
+receiving  HW3.txt
+got msg
+got msg
+got msg
+got msg
+got msg
+got msg
+got msg
+got the file: <type 'file'>
+waiting for command
+
